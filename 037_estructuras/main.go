@@ -3,18 +3,18 @@ package main
 import "fmt"
 
 type Pais struct {
-	Nombre     string
-	Capital    string
-	Idioma     string
-	Habitantes int
+	Nombre    string
+	Capital   string
+	Idioma    string
+	Poblacion int
 }
 
 func main() {
 	irlanda := Pais{
-		Nombre:     "Irlanda",
-		Capital:    "Dublin",
-		Idioma:     "Irlandes",
-		Habitantes: 4857000,
+		Nombre:    "Irlanda",
+		Capital:   "Dublin",
+		Idioma:    "Irlandes",
+		Poblacion: 4857000,
 	}
-	fmt.Println(irlanda)
+	fmt.Printf("%+v\n", irlanda)
 }
